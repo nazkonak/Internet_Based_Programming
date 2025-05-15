@@ -1,0 +1,74 @@
+		html{
+			background-image: -webkit-linear-gradient(top, white 0%, #237914 100%);	
+			background-image: -moz-linear-gradient(top, white 0%, #237914 100%);
+			background-image: -o-linear-gradient(top, white 0%, #237914 100%);
+			background-image: linear-gradient(top, white 0%, #237914 100%);
+			
+		}
+		body{
+			font-family:sans-serif;
+			background: #ccebd8;
+			border:10px outset #237914;
+			border-radius: 20px 20px 20px 20px;
+			margin: 100px 200px 200px ;
+			width: 700px;
+			margin: 1em auto;
+		}
+		a{
+            text-decoration: none; /* Normalde altı çizili olmasın */
+            color: blue;
+        }
+			a:link { color: #0037ff; } /* unvisited link */
+			a:visited { color: #006aff; } /* visited link */
+			a:hover { 
+				text-decoration: underline; 
+				color: #ff0000; } /* mouse over link */
+
+		p.bolum{
+			border: 2px solid #16570b;	
+			text-align: center;
+			background-color: #5eb04f;
+			border-radius: 20px 20px 20px 20px;
+			
+		}
+		h2.baslik{
+			text-align: center;
+		}	
+		p{
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		header img{
+			border-radius:  20px 20px 20px 20px;
+			margin-left: 10px;
+			float: left;
+		}
+		div{
+			padding-left: 100px;
+		}
+
+		header p{
+			text-align: center;
+			
+		}
+		div.part1{
+			display: flex;
+			margin: auto;
+			padding-left: 0
+		}
+		div.part2{
+			display:contents;     
+    		margin: auto;   
+    		gap: 10px;             
+		}
+		div.header{
+			padding-left: 120pt;
+		}	
+		footer p {
+			font-size: 80%;
+			text-align: right;
+		}
+		img.github{
+			border-radius: 20px 20px 20px 20px;
+			
+		}
