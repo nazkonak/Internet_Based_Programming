@@ -23,9 +23,7 @@
 			a:hover { 
 				text-decoration: underline; 
 				color: #ff0000; } /* mouse over link */
-		p.opinions{
-			text-align: left;
-			background-color:#5eb04f;}
+
 		p.bolum{
 			border: 2px solid #16570b;	
 			text-align: center;
